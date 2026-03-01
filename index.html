@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClickLLab | Prémiová agentura pro sociální sítě</title>
+    <meta name="description"
+        content="Luxusní agentura pro správu sociálních sítí. Profesionální focení, tvorba obsahu, IG, TikTok a růst vaší značky.">
+
+    <!-- Rozšířené SEO & Trending Meta Tagy -->
+    <meta name="keywords"
+        content="správa sociálních sítí, social media marketing, TikTok agentura, Instagram obsah, profesionální focení, ClickLab, tvůrci obsahu">
+    <meta name="author" content="ClickLab">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0a0a0c">
+
+    <!-- Open Graph (Facebook, LinkedIn, Discord) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://clicklab.cz/">
+    <meta property="og:title" content="ClickLab | Prémiová agentura pro sociální sítě">
+    <meta property="og:description"
+        content="Luxusní agentura pro správu sociálních sítí. Profesionální focení, tvorba obsahu, IG, TikTok a růst vaší značky.">
+    <meta property="og:image" content="https://clicklab.cz/assets/hero_bg.png">
+    <meta property="og:site_name" content="ClickLab">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://clicklab.cz/">
+    <meta name="twitter:title" content="ClickLab | Prémiová agentura pro sociální sítě">
+    <meta name="twitter:description"
+        content="Luxusní agentura pro správu sociálních sítí. Profesionální focení, tvorba obsahu, IG, TikTok a růst vaší značky.">
+    <meta name="twitter:image" content="https://clicklab.cz/assets/hero_bg.png">
+
+    <!-- Structured Data (JSON-LD) - SEO Best Practice -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "ClickLab",
+      "image": "https://clicklab.cz/assets/hero_bg.png",
+      "@id": "https://clicklab.cz/",
+      "url": "https://clicklab.cz/",
+      "telephone": "+420123456789",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Náměstí Svobody 1",
+        "addressLocality": "Brno",
+        "postalCode": "60200",
+        "addressCountry": "CZ"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://www.instagram.com/clicklab",
+        "https://www.facebook.com/clicklab"
+      ]
+    }
+    </script>
+
+    <!-- Google Fonts Optimalizace -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+            rel="stylesheet">
+    </noscript>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fallback pro crawlery a uživatele bez JS -->
+    <noscript>
+        <style>
+            .reveal {
+                opacity: 1 !important;
+                transform: none !important;
+            }
+        </style>
+    </noscript>
+
+    <!-- Icons (Lucide) - Defer loading -->
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo" aria-label="ClickLLab Domů">Click<span>LLab</span></a>
+            <ul class="nav-links">
+                <li><a href="#proces">Jak to funguje</a></li>
+                <li><a href="#sluzby">Služby</a></li>
+                <li><a href="#o-nas">O Nás</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#kontakt" class="btn btn-outline">Kontakt</a></li>
+            </ul>
+            <div class="hamburger" role="button" aria-label="Otevřít menu">
+                <i data-lucide="menu"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="domu">
+        <div class="hero-bg">
+            <img src="assets/hero_bg.png" alt="Luxusní studio vybavené profesionální technikou pro ClickLab"
+                class="hero-img" width="1920" height="1080" fetchpriority="high">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <h1 class="hero-title reveal">Pozvedněte svou značku na <span>luxusní</span> úroveň.</h1>
+            <p class="hero-subtitle reveal delay-1">Komplexní správa sociálních sítí s prémiovou vizuální produkcí. Od
+                profesionálního focení až po virální TikToky.</p>
+            <div class="hero-cta reveal delay-2">
+                <a href="#kontakt" class="btn btn-primary">Začít spolupráci <i data-lucide="arrow-right"></i></a>
+                <a href="#sluzby" class="btn btn-text">Objevte naše služby</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Process Steps Section -->
+    <section class="process section" id="proces">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Jak to <span>funguje</span></h2>
+                <p class="section-desc">Od prvního setkání až po publikaci — transparentní proces, na který se můžete
+                    spolehnout.</p>
+            </div>
+
+            <div class="process-timeline">
+                <!-- Step 1 -->
+                <div class="process-step reveal">
+                    <div class="step-number">01</div>
+                    <div class="step-icon">
+                        <i data-lucide="handshake"></i>
+                    </div>
+                    <h3>Schůzka</h3>
+                    <p>Setkáme se, poznáme vaši značku a společně navrhneme strategii na míru.</p>
+                </div>
+                <div class="step-connector reveal delay-1"></div>
+                <!-- Step 2 -->
+                <div class="process-step reveal delay-1">
+                    <div class="step-number">02</div>
+                    <div class="step-icon">
+                        <i data-lucide="pen-tool"></i>
+                    </div>
+                    <h3>Tvorba obsahu</h3>
+                    <p>Náš tým vytvoří vizuály, texty a videa — vše kompletně za vás.</p>
+                </div>
+                <div class="step-connector reveal delay-1"></div>
+                <!-- Step 3 -->
+                <div class="process-step reveal delay-2">
+                    <div class="step-number">03</div>
+                    <div class="step-icon">
+                        <i data-lucide="check-circle"></i>
+                    </div>
+                    <h3>Kontrola & schválení</h3>
+                    <p>Vše vám pošleme ke kontrole. Publikujeme až po vašem souhlasu.</p>
+                </div>
+                <div class="step-connector reveal delay-2"></div>
+                <!-- Step 4 -->
+                <div class="process-step reveal delay-2">
+                    <div class="step-number">04</div>
+                    <div class="step-icon">
+                        <i data-lucide="rocket"></i>
+                    </div>
+                    <h3>Publikace</h3>
+                    <p>Obsah jde ven přesně ve správný čas. Sledujeme výkon a optimalizujeme.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="sluzby">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Naše <span>Služby</span></h2>
+                <p class="section-desc">Poskytujeme all-in-one řešení pro váš digitální růst. Špičková kvalita bez
+                    kompromisů.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1: Instagram -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i data-lucide="instagram"></i>
+                    </div>
+                    <h3>Instagram</h3>
+                    <p>Kompletní správa vašeho Instagramu — od estetického feedu, přes stories až po reels. Budujeme
+                        vaši komunitu a zvyšujeme engagement.</p>
+                </div>
+
+                <!-- Service 2: TikTok -->
+                <div class="service-card reveal delay-1">
+                    <div class="service-icon">
+                        <i data-lucide="clapperboard"></i>
+                    </div>
+                    <h3>TikTok</h3>
+                    <p>Sledujeme trendy a vytváříme virální obsah. Od scénáře po finální střih — TikTok je naše parketa.
+                    </p>
+                </div>
+
+                <!-- Service 3: LinkedIn -->
+                <div class="service-card reveal delay-2">
+                    <div class="service-icon">
+                        <i data-lucide="briefcase"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p>Profesionální obsah pro LinkedIn, který buduje vaši osobní značku i firemní autoritu. Propojíme
+                        vás se správnými lidmi.</p>
+                </div>
+
+                <!-- Service 4: Influencer Marketing -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <h3>Influencer Marketing</h3>
+                    <p>Propojíme vaši značku s relevantními influencery. Zajistíme autentické spolupráce, které přináší
+                        reálné výsledky.</p>
+                </div>
+
+                <!-- Service 5: Audit sociálních sítí -->
+                <div class="service-card reveal delay-1">
+                    <div class="service-icon">
+                        <i data-lucide="search"></i>
+                    </div>
+                    <h3>Audit sociálních sítí</h3>
+                    <p>Důkladná analýza vašich profilů — konkurence, obsah, engagement. Odhalíme slabá místa a navrhneme
+                        strategii růstu.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="o-nas">
+        <div class="container about-container">
+            <div class="about-content reveal">
+                <h2 class="section-title">Proč zrovna <span>My?</span></h2>
+                <p>Nejsme jen další digitální agentura. Jsme vaši partneři v tvorbě prémiového brandu.</p>
+                <ul class="about-list">
+                    <li><i data-lucide="check-circle" class="text-primary"></i> <strong>Vlastní technika:</strong>
+                        Nepotřebujete si najímat další fotografy nebo kameramany. Vše zastaneme my.</li>
+                    <li><i data-lucide="check-circle" class="text-primary"></i> <strong>Moderní přístup:</strong>
+                        Rozumíme
+                        dynamice Instagramu a TikToku lépe než kdokoliv jiný.</li>
+                    <li><i data-lucide="check-circle" class="text-primary"></i> <strong>Luxusní výsledek:</strong>
+                        Zaměřujeme se na vizuální dokonalost. Každý detail se počítá.</li>
+                </ul>
+            </div>
+            <div class="about-image-wrapper reveal delay-1">
+                <div class="about-image glass-panel">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog section" id="blog">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Náš <span>Blog</span></h2>
+                <p class="section-desc">Tipy, trendy a novinky ze světa sociálních sítí. Inspirujte se a buďte o krok
+                    napřed.</p>
+            </div>
+
+            <div class="blog-grid">
+                <!-- Blog Post 1 -->
+                <article class="blog-card reveal">
+                    <div class="blog-card-badge">Instagram</div>
+                    <div class="blog-card-content">
+                        <span class="blog-date"><i data-lucide="calendar" style="width:14px;height:14px"></i> 28. 2.
+                            2026</span>
+                        <h3>5 tipů jak zvýšit dosah na Instagramu v roce 2026</h3>
+                        <p>Algoritmus se mění a s ním i pravidla hry. Přinášíme vám ověřené strategie, které fungují
+                            právě teď.</p>
+                        <a href="blog-instagram-dosah.html" class="blog-link">Číst více <i data-lucide="arrow-right"
+                                style="width:16px;height:16px"></i></a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-card reveal delay-1">
+                    <div class="blog-card-badge">TikTok</div>
+                    <div class="blog-card-content">
+                        <span class="blog-date"><i data-lucide="calendar" style="width:14px;height:14px"></i> 20. 2.
+                            2026</span>
+                        <h3>Proč by váš brand měl být na TikToku</h3>
+                        <p>TikTok není jen pro teenagery. Ukážeme vám, jak ho využít pro růst vašeho podnikání a oslovit
+                            novou cílovou skupinu.</p>
+                        <a href="blog-tiktok-brand.html" class="blog-link">Číst více <i data-lucide="arrow-right"
+                                style="width:16px;height:16px"></i></a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-card reveal delay-2">
+                    <div class="blog-card-badge">Strategie</div>
+                    <div class="blog-card-content">
+                        <span class="blog-date"><i data-lucide="calendar" style="width:14px;height:14px"></i> 10. 2.
+                            2026</span>
+                        <h3>Influencer marketing: Jak vybrat správného partnera</h3>
+                        <p>Ne každý influencer je pro vaši značku ten pravý. Přečtěte si, na co se zaměřit při výběru
+                            spolupráce.</p>
+                        <a href="blog-influencer-marketing.html" class="blog-link">Číst více <i
+                                data-lucide="arrow-right" style="width:16px;height:16px"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Contact Section -->
+    <section class="contact section" id="kontakt">
+        <div class="container contact-container reveal">
+            <div class="contact-box glass-panel">
+                <div class="contact-text">
+                    <h2>Připraveni ovládnout sítě?</h2>
+                    <p>Napište nám a my vám navrhneme strategii na míru.</p>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Vaše jméno nebo firma" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="E-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="S čím vám můžeme pomoci?" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Odeslat poptávku</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">Click<span>LLab</span></a>
+                <p>Vaše agentura pro prémiový digitální obsah.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Odkazy</h4>
+                <ul>
+                    <li><a href="#proces">Jak to funguje</a></li>
+                    <li><a href="#sluzby">Služby</a></li>
+                    <li><a href="#o-nas">O Nás</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Sledujte nás</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram ClickLab"><i data-lucide="instagram"></i></a>
+                    <a href="#" aria-label="Facebook ClickLab"><i data-lucide="facebook"></i></a>
+                    <a href="#" aria-label="LinkedIn ClickLab"><i data-lucide="linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Fimadux. Všechna práva vyhrazena.</p>
+        </div>
+    </footer>
+
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+    <!-- Scripts - Defer for performance -->
+    <script src="main.js" defer></script>
+</body>
+
+</html>
