@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://clickllab.netlify.app/sitemap.xml
+Sitemap: https://clickllab.com/sitemap.xml
